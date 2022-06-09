@@ -1,4 +1,4 @@
-def anagramCheck2(str1,str2):  
+def checkAnagram(str1,str2):  
     # Convert the string into lists  
     list1 = list(str1)  
     list2 = list(str2)  
@@ -17,4 +17,4 @@ def anagramCheck2(str1,str2):
   
     return matches  
   
-print(anagramCheck2('elvis','lives'))  
+print(checkAnagram('elvis','lives'))  
